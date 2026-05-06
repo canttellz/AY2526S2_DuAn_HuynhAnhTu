@@ -1,9 +1,0 @@
-UH-Mine — Dynamic Parameters | minSup=0.05 | 2026-05-07 00:14:24
-Algorithm: UH-Mine (Exact, DFS)
-Accuracy : 100% (exact — identical to U-Apriori)
-
-Step                      Before  After  Runtime(ms)    Mem(MB)  MaxSets Gained   Lost
-----------------------------------------------------------------------------------
-Time 1 (initial)               0   5000           16      18.00        4      0      0
-Time 2 (+1000 txn)          5000   6000           35      17.65        6      3      1
-Time 3 (+10000 txn)         6000  16000          108      38.45        5      1      2
