@@ -1,0 +1,44 @@
+U-Apriori — Static Results | minSup=0.05 | 2026-05-07 00:14:22
+
+--- retail_uncertain_1000.txt (1000 transactions) ---
+Runtime: 43 ms
+Memory : 3.84 MB
+Maximal itemsets (6):
+  1. [39, 40]
+  2. [39, 49]
+  3. [40, 42]
+  4. [40, 49]
+  5. [42, 49]
+  6. [33]
+
+--- retail_uncertain_5000.txt (5000 transactions) ---
+Runtime: 24 ms
+Memory : 4.29 MB
+Maximal itemsets (4):
+  1. [40, 42, 49]
+  2. [39, 40]
+  3. [39, 49]
+  4. [33]
+
+--- retail_uncertain_10000.txt (10000 transactions) ---
+Runtime: 23 ms
+Memory : 12.00 MB
+Maximal itemsets (6):
+  1. [33, 40]
+  2. [33, 49]
+  3. [39, 40]
+  4. [40, 42]
+  5. [40, 49]
+  6. [42, 49]
+
+--- retail_uncertain.txt (88162 transactions) ---
+Runtime: 220 ms
+Memory : 72.00 MB
+Maximal itemsets (7):
+  1. [33, 40]
+  2. [33, 49]
+  3. [39, 40]
+  4. [39, 49]
+  5. [40, 42]
+  6. [40, 49]
+  7. [42, 49]

@@ -1,0 +1,54 @@
+U-Apriori — Dynamic Results | minSup=0.05 | 2026-05-07 00:14:22
+
+=== Time 1 (initial) ===
+Transactions: 0 -> 5000
+Runtime     : 7 ms
+Memory      : 4.00 MB
+Maximal itemsets (4):
+  1. [40, 42, 49]
+  2. [39, 40]
+  3. [39, 49]
+  4. [33]
+
+=== Time 2 (+1000) ===
+Transactions: 5000 -> 6000
+Runtime     : 12 ms
+Memory      : 6.14 MB
+Maximal itemsets (6):
+  1. [39, 40]
+  2. [39, 49]
+  3. [40, 42]
+  4. [40, 49]
+  5. [42, 49]
+  6. [33]
+Gained (3):
+  + [40, 42]
+  + [40, 49]
+  + [42, 49]
+Lost (1):
+  - [40, 42, 49]
+Unchanged (3):
+  = [33]
+  = [39, 40]
+  = [39, 49]
+
+=== Time 3 (+10000) ===
+Transactions: 6000 -> 16000
+Runtime     : 33 ms
+Memory      : 18.00 MB
+Maximal itemsets (5):
+  1. [33, 40]
+  2. [39, 40]
+  3. [40, 42]
+  4. [40, 49]
+  5. [42, 49]
+Gained (1):
+  + [33, 40]
+Lost (2):
+  - [33]
+  - [39, 49]
+Unchanged (4):
+  = [39, 40]
+  = [40, 42]
+  = [40, 49]
+  = [42, 49]

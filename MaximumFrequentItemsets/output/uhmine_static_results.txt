@@ -1,0 +1,44 @@
+UH-Mine — Static Results | minSup=0.05 | 2026-05-07 00:14:23
+
+--- retail_uncertain_1000.txt (1000 transactions) ---
+Runtime: 45 ms
+Memory : 5.92 MB
+Maximal itemsets (6):
+  1. [40, 49]
+  2. [39, 40]
+  3. [40, 42]
+  4. [39, 49]
+  5. [42, 49]
+  6. [33]
+
+--- retail_uncertain_5000.txt (5000 transactions) ---
+Runtime: 75 ms
+Memory : 13.71 MB
+Maximal itemsets (4):
+  1. [40, 42, 49]
+  2. [39, 40]
+  3. [39, 49]
+  4. [33]
+
+--- retail_uncertain_10000.txt (10000 transactions) ---
+Runtime: 115 ms
+Memory : 26.89 MB
+Maximal itemsets (6):
+  1. [40, 49]
+  2. [40, 42]
+  3. [33, 40]
+  4. [39, 40]
+  5. [42, 49]
+  6. [33, 49]
+
+--- retail_uncertain.txt (88162 transactions) ---
+Runtime: 576 ms
+Memory : 220.61 MB
+Maximal itemsets (7):
+  1. [40, 49]
+  2. [39, 40]
+  3. [33, 40]
+  4. [40, 42]
+  5. [39, 49]
+  6. [33, 49]
+  7. [42, 49]

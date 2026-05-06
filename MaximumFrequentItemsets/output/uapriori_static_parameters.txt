@@ -1,0 +1,10 @@
+U-Apriori — Static Parameters | minSup=0.05 | 2026-05-07 00:14:22
+Algorithm: U-Apriori (Exact, BFS)
+Accuracy : 100% (exact — no approximation)
+
+Dataset                                  Txn  Runtime(ms)    Mem(MB)    MaxSets
+------------------------------------------------------------------------------
+retail_uncertain_1000.txt               1000           43       3.84          6
+retail_uncertain_5000.txt               5000           24       4.29          4
+retail_uncertain_10000.txt             10000           23      12.00          6
+retail_uncertain.txt                   88162          220      72.00          7

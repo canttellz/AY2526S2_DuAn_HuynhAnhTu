@@ -1,0 +1,10 @@
+UH-Mine — Static Parameters | minSup=0.05 | 2026-05-07 00:14:23
+Algorithm: UH-Mine (Exact, DFS)
+Accuracy : 100% (exact — identical to U-Apriori)
+
+Dataset                                  Txn  Runtime(ms)    Mem(MB)    MaxSets
+------------------------------------------------------------------------------
+retail_uncertain_1000.txt               1000           45       5.92          6
+retail_uncertain_5000.txt               5000           75      13.71          4
+retail_uncertain_10000.txt             10000          115      26.89          6
+retail_uncertain.txt                   88162          576     220.61          7

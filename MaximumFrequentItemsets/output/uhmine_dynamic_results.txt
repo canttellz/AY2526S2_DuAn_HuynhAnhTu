@@ -1,0 +1,54 @@
+UH-Mine — Dynamic Results | minSup=0.05 | 2026-05-07 00:14:24
+
+=== Time 1 (initial) ===
+Transactions: 0 -> 5000
+Runtime     : 16 ms
+Memory      : 18.00 MB
+Maximal itemsets (4):
+  1. [40, 42, 49]
+  2. [39, 40]
+  3. [39, 49]
+  4. [33]
+
+=== Time 2 (+1000 txn) ===
+Transactions: 5000 -> 6000
+Runtime     : 35 ms
+Memory      : 17.65 MB
+Maximal itemsets (6):
+  1. [40, 49]
+  2. [40, 42]
+  3. [39, 40]
+  4. [42, 49]
+  5. [39, 49]
+  6. [33]
+Gained (3):
+  + [40, 49]
+  + [40, 42]
+  + [42, 49]
+Lost (1):
+  - [40, 42, 49]
+Unchanged (3):
+  = [33]
+  = [39, 40]
+  = [39, 49]
+
+=== Time 3 (+10000 txn) ===
+Transactions: 6000 -> 16000
+Runtime     : 108 ms
+Memory      : 38.45 MB
+Maximal itemsets (5):
+  1. [40, 49]
+  2. [40, 42]
+  3. [39, 40]
+  4. [33, 40]
+  5. [42, 49]
+Gained (1):
+  + [33, 40]
+Lost (2):
+  - [33]
+  - [39, 49]
+Unchanged (4):
+  = [40, 49]
+  = [40, 42]
+  = [39, 40]
+  = [42, 49]
