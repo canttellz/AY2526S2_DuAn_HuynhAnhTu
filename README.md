@@ -1,6 +1,6 @@
 # Object-Oriented Solutions to Mining Maximal Frequent Itemsets from Accumulated Dynamic Uncertain Databases
 
-**Ton Duc Thang University — Faculty of Information Technology — 2025**
+**Ton Duc Thang University — Faculty of Information Technology — 2026**
 
 ---
 
